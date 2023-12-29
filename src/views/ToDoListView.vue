@@ -2,7 +2,7 @@
 import { onMounted, ref, watch } from 'vue'
 import VueDatePicker from '@vuepic/vue-datepicker'
 import '@vuepic/vue-datepicker/dist/main.css'
-import TaskList from '../components/taskList.vue'
+import TaskList from '../components/TaskList.vue'
 
 const taskList = ref(JSON.parse(localStorage.getItem('taskList')) || [])
 
